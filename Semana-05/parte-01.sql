@@ -155,3 +155,16 @@ from tb_ContactoCliente
 group by idCliente
 ) tcol on cc.idCliente=tcol.idCliente
 
+--8
+
+--CI
+select max(fechaContactoCliente) FROM tb_ContactoCliente
+
+--CE
+select c.apellidosCliente,c.nombreCliente,c.celularCliente,
+convert(varchar(8),fechaContactoCliente,112) as feccon,
+convert(varchar(8),(select max(fechaContactoCliente) FROM tb_ContactoCliente),112) as fecmaxcon
+from tb_ContactoCliente cc
+--where fechaContactoCliente='20190316' Valor en duro
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+where convert(varchar(8),fechaContactoCliente,112)=convert(varchar(8),(select max(fechaContactoCliente) FROM tb_ContactoCliente),112)
