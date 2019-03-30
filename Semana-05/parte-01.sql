@@ -168,3 +168,40 @@ from tb_ContactoCliente cc
 --where fechaContactoCliente='20190316' Valor en duro
 inner join tb_Cliente c on cc.idCliente=c.idCliente
 where convert(varchar(8),fechaContactoCliente,112)=convert(varchar(8),(select max(fechaContactoCliente) FROM tb_ContactoCliente),112)
+
+--9
+
+select c.apellidoColaborador,c.nombreColaborador,c.numeroDocumentoColaborador,
+convert(varchar(8),fechaContactoCliente,112) as feccon,
+convert(varchar(8),(select max(fechaContactoCliente) FROM tb_ContactoCliente),112) as fecmaxcon
+from tb_ContactoCliente cc
+--where fechaContactoCliente='20190316' Valor en duro
+inner join tb_Colaborador c on cc.idColaborador=c.idColaborador
+where convert(varchar(8),fechaContactoCliente,112)=convert(varchar(8),(select max(fechaContactoCliente) FROM tb_ContactoCliente),112)
+
+select * from tb_ContactoCliente
+update tb_ContactoCliente
+set fechaContactoCliente=getdate()
+where idColaborador=6
+
+--10
+--CI. Promedio de contactabilidad de Colaboradores
+select AVG(tcc.total) from
+(
+	select idColaborador,count(1) as total from tb_ContactoCliente
+	group by idColaborador
+) tcc
+
+--CE
+
+select idColaborador,count(1) as total from tb_ContactoCliente
+group by idColaborador
+having count(1)>
+--Promedio de contactabilidad de Colaboradores
+(
+	select AVG(tcc.total) from
+	(
+		select idColaborador,count(1) as total from tb_ContactoCliente
+		group by idColaborador
+	) tcc
+)
