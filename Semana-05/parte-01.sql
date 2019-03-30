@@ -205,3 +205,18 @@ having count(1)>
 		group by idColaborador
 	) tcc
 )
+
+--11
+
+--12
+
+--CI
+select * from tb_ContactoCliente
+
+--CE
+select * from tb_Cliente
+where idCliente in (select idCliente from tb_ContactoCliente)--CI
+
+--13
+select * from tb_Cliente
+where idCliente not in (select idCliente from tb_ContactoCliente)--CI
