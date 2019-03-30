@@ -109,3 +109,48 @@ select * from dbo.fnResxCli(10,'20190330')
 
 --6 Transformar la pregunta 05 de la parte 01 a función de tabla que acepte como
 --parámetro el id de colaborador (Lineas 56-70)
+create function dbo.fnCol(@idcolaborador int) returns table
+return
+	select 
+	CONCAT(nombreColaborador,'',apellidoColaborador) as [Nombre Completo],
+	r.nombreRol as [Rol],
+	t.nombreTipoDocumento as [Tipo Documento],
+	ISNULL(tc.total,0) as [Total Contactabilidad]
+	from tb_Colaborador c
+	left join tb_Rol r on c.idRol=r.idRol
+	inner join tb_TipoDocumento t on c.idTipoDocumento=t.idTipoDocumento
+	left join
+	(
+	select idColaborador,count(1) as total from tb_ContactoCliente
+	group by idColaborador--CI
+	) tc on c.idColaborador=tc.idColaborador
+	where c.idColaborador=@idcolaborador
+
+select * from dbo.fnCol(1)
+select * from dbo.fnCol(5)
+select * from dbo.fnCol(6)
+
+--7 
+--# Tabla temporal local
+--## Tabla temporal global
+select object_id('tempdb..##tt_colaborador')
+
+if object_id('tempdb..##tt_colaborador') is not null
+begin
+	drop table tempdb..##tt_colaborador
+end
+
+select 
+	CONCAT(nombreColaborador,'',apellidoColaborador) as [Nombre Completo],
+	r.nombreRol as [Rol],
+	t.nombreTipoDocumento as [Tipo Documento],
+	ISNULL(tc.total,0) as [Total Contactabilidad]
+into tempdb..##tt_colaborador
+	from tb_Colaborador c
+	left join tb_Rol r on c.idRol=r.idRol
+	inner join tb_TipoDocumento t on c.idTipoDocumento=t.idTipoDocumento
+	left join
+	(
+	select idColaborador,count(1) as total from tb_ContactoCliente
+	group by idColaborador--CI
+	) tc on c.idColaborador=tc.idColaborador
