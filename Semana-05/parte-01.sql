@@ -67,3 +67,55 @@ left join
 select idColaborador,count(1) as total from tb_ContactoCliente
 group by idColaborador--CI
 ) tc on c.idColaborador=tc.idColaborador
+
+--6
+
+--Modo 1
+--CI 1 (Total colaboradores diferentes por cliente)
+select idCliente,count(distinct idColaborador) as totcol
+from tb_ContactoCliente
+group by idCliente
+--CI 2 (Último contacto por cliente)
+select idCliente,max(distinct fechaContactoCliente) as totcol
+from tb_ContactoCliente
+group by idCliente
+
+select 
+concat(nombreCliente,'',apellidosCliente) as [Nombre Completo],
+cat.nombreCategoria as [Categoría],
+isnull(totcte.totcol,0) as [Total Colaboradores],
+ISNULL(convert(varchar(8),maxcte.fecultcto,112),'') as [Fecha Último Contacto]
+from tb_Cliente cte
+inner join tb_Categoria cat on cte.idCategoria=cat.idCategoria
+left join 
+(
+select idCliente,count(distinct idColaborador) as totcol
+from tb_ContactoCliente
+group by idCliente
+) totcte on cte.idCliente=totcte.idCliente
+left join 
+(
+select idCliente,max(distinct fechaContactoCliente) as fecultcto
+from tb_ContactoCliente
+group by idCliente
+) maxcte on cte.idCliente=maxcte.idCliente
+
+--Modo 2
+
+select idCliente,count(distinct idColaborador) as total,max(distinct fechaContactoCliente) as max
+from tb_ContactoCliente
+group by idCliente
+
+select 
+concat(nombreCliente,'',apellidosCliente) as [Nombre Completo],
+cat.nombreCategoria as [Categoría],
+isnull(totales.total,0) as [Total Colaboradores],
+ISNULL(convert(varchar(8),totales.max,112),'') as [Fecha Último Contacto]
+from tb_Cliente cte
+inner join tb_Categoria cat on cte.idCategoria=cat.idCategoria
+left join 
+(
+select idCliente,count(distinct idColaborador) as total,max(distinct fechaContactoCliente) as max
+from tb_ContactoCliente
+group by idCliente
+) totales on cte.idCliente=totales.idCliente
