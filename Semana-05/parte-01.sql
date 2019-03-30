@@ -119,3 +119,39 @@ select idCliente,count(distinct idColaborador) as total,max(distinct fechaContac
 from tb_ContactoCliente
 group by idCliente
 ) totales on cte.idCliente=totales.idCliente
+
+
+--7
+
+--CI1--p5
+select idColaborador,count(1) as total from tb_ContactoCliente
+group by idColaborador
+
+--CI2--p6
+select idCliente,count(distinct idColaborador) as total,max(distinct fechaContactoCliente) as max
+from tb_ContactoCliente
+group by idCliente
+
+
+--CE
+select 
+upper(concat(col.nombreColaborador,' ',col.apellidoColaborador)) as [Nombre Completo Colaborador],
+tcon.total as [Total Contactabilidad],
+upper(concat(cli.nombreCliente,' ',cli.apellidosCliente)) as [Nombre Completo Cliente],
+ tcol.total as [Total  Colaboradores],
+ p.nombreProducto as [Nombre Producto]
+from tb_ContactoCliente cc
+inner join tb_Colaborador col on cc.idColaborador=col.idColaborador
+inner join tb_Cliente cli on cc.idCliente=cli.idCliente
+inner join tb_Producto p on cc.idProducto=p.idProducto
+left join 
+(select idColaborador,count(1) as total from tb_ContactoCliente
+group by idColaborador
+) tcon on cc.idColaborador=tcon.idColaborador
+left join
+(
+select idCliente,count(distinct idColaborador) as total,max(distinct fechaContactoCliente) as max
+from tb_ContactoCliente
+group by idCliente
+) tcol on cc.idCliente=tcol.idCliente
+
