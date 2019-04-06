@@ -100,3 +100,20 @@ select idUbigeo,departamento,provincia,distrito,poblacion,substring(departamento
 dbo.tb_Ubigeo
 ) u
 order by pletra
+
+--4 Funciones Windows OFFSET
+
+select 
+idUbigeo,
+departamento, 
+provincia,
+distrito,
+superficie,
+LAG(superficie) OVER(PARTITION BY departamento ORDER BY superficie desc) as LAG,
+LEAD(superficie) OVER(PARTITION BY departamento ORDER BY superficie desc) as LEAD,
+FIRST_VALUE(superficie) OVER(PARTITION BY departamento ORDER BY superficie desc) as FIRST_VALUE,
+LAST_VALUE(superficie) OVER(PARTITION BY departamento ORDER BY superficie desc) as LAST_VALUE
+--ROW_NUMBER() OVER(ORDER BY superficie desc) as num
+from tb_Ubigeo u
+where u.poblacion>10000
+order by departamento,superficie desc
