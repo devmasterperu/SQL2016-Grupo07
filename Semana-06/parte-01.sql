@@ -3771,3 +3771,67 @@ where idUbigeo+departamento+provincia+distrito not in
 (
 select  idUbigeo+departamento+provincia+distrito from dbo.tb_Ubigeo
 )
+
+--8.a
+--x
+select * from tb_Producto
+
+--y
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=1
+order by u.poblacion desc
+/*
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=2
+order by u.poblacion desc
+
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=3
+order by u.poblacion desc
+*/
+--x apply y
+
+select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
+cross apply
+(
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=p.idProducto--enlace x+y
+order by u.poblacion desc
+) tp
+
+--8.b
+
+--8.b.1
+create function dbo.fnTopProducto(@idProducto int) --Cambié p.idProducto por @idProducto
+returns table
+return
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=@idProducto--enlace x+y
+order by u.poblacion desc
+
+select * from dbo.fnTopProducto(2)
+
+--8.b.2
+select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
+cross apply dbo.fnTopProducto(p.idProducto) tp
+
+--8.b.2
+select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
+inner join dbo.tb_ContactoCliente cc on p.idProducto=cc.idProducto
+cross apply dbo.fnTopProducto(p.idProducto) tp
+where p.estadoProducto=1
