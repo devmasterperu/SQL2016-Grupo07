@@ -46,3 +46,29 @@ count(superficie) OVER(PARTITION BY departamento) as condpto--Corta por departam
 from tb_Ubigeo u
 where u.poblacion>10000
 order by departamento,provincia,distrito
+
+--3 Mostrar para cada ubigeo su ranking de superfice por departamento (De mayor a menor):
+---Mostrar el ranking con puestos irrepetibles.
+---Mostrar el ranking sin salto de puestos.
+---Mostrar el ranking con salto de puestos.
+---Agrupar los ranking por departamento en 4 grupos.
+select 
+idUbigeo,
+departamento, 
+provincia,
+distrito,
+superficie,
+ROW_NUMBER() OVER(PARTITION BY departamento ORDER BY superficie desc) as row_number,
+DENSE_RANK() OVER(PARTITION BY departamento ORDER BY superficie desc) as dense_rank
+--ROW_NUMBER() OVER(ORDER BY superficie desc) as num
+from tb_Ubigeo u
+where u.poblacion>10000
+order by departamento,superficie desc
+
+update tb_Ubigeo
+set superficie=1746.23
+where idUbigeo='010202'
+
+update tb_Ubigeo
+set superficie=746.64
+where idUbigeo='010706'
