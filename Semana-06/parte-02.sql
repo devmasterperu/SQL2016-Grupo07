@@ -59,7 +59,10 @@ provincia,
 distrito,
 superficie,
 ROW_NUMBER() OVER(PARTITION BY departamento ORDER BY superficie desc) as row_number,
-DENSE_RANK() OVER(PARTITION BY departamento ORDER BY superficie desc) as dense_rank
+DENSE_RANK() OVER(PARTITION BY departamento ORDER BY superficie desc) as dense_rank,
+RANK() OVER(PARTITION BY departamento ORDER BY superficie desc) as rank,
+NTILE(4) OVER(PARTITION BY departamento ORDER BY superficie desc) as ntile4,
+NTILE(2) OVER(PARTITION BY departamento ORDER BY superficie desc) as ntile2
 --ROW_NUMBER() OVER(ORDER BY superficie desc) as num
 from tb_Ubigeo u
 where u.poblacion>10000
