@@ -3740,4 +3740,12 @@ SELECT '250304','Sepahua','Atalaya','Ucayali',9193,8223.63 UNION
 SELECT '250401','Purus','Purus','Ucayali',4657,17847.76 UNION 
 SELECT '999999','-','-','-',0,0  
 
-select * from desarrollo.tb_Ubigeo
+--Copiar estructura de tabla sin data
+select * 
+into desarrollo.tb_Ubigeo
+from dbo.tb_Ubigeo where 1=0
+
+--5
+select idUbigeo,departamento, provincia,distrito from dbo.tb_Ubigeo--prod
+intersect
+select idUbigeo, departamento, provincia,distrito from desarrollo.tb_Ubigeo--des
