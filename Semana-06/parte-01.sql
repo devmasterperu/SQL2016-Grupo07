@@ -65,3 +65,15 @@ select 'NN' as nombres,'NN' as apellidos,'Ninguno' as tabla
 Select nombres, apellidos, tabla from CTE_personas
 
 select * from dbo.fnPersonas()
+
+--2
+
+select nombreCliente,apellidosCliente,t.nombreTipoDocumento,c.numeroDocumentoCliente
+from tb_Cliente c 
+inner join tb_TipoDocumento t on c.idTipoDocumento=t.idTipoDocumento
+inner join tb_ContactoCliente cc on c.idCliente=cc.idCliente
+union
+select nombreColaborador,apellidoColaborador,t.nombreTipoDocumento,c.numeroDocumentoColaborador
+from tb_Colaborador c 
+inner join tb_TipoDocumento t on c.idTipoDocumento=t.idTipoDocumento
+inner join tb_ContactoCliente cc on c.idColaborador=cc.idColaborador
