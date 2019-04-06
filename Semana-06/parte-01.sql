@@ -3749,3 +3749,25 @@ from dbo.tb_Ubigeo where 1=0
 select idUbigeo,departamento, provincia,distrito from dbo.tb_Ubigeo--prod
 intersect
 select idUbigeo, departamento, provincia,distrito from desarrollo.tb_Ubigeo--des
+
+--6
+select idUbigeo,departamento, provincia,distrito from dbo.tb_Ubigeo--prod
+except
+select idUbigeo, departamento, provincia,distrito from desarrollo.tb_Ubigeo--des
+--6.2
+select  idUbigeo,departamento,provincia,distrito from dbo.tb_Ubigeo
+where idUbigeo+departamento+provincia+distrito not in
+(
+select  idUbigeo+departamento+provincia+distrito from desarrollo.tb_Ubigeo
+)
+--7
+select idUbigeo,departamento, provincia,distrito from desarrollo.tb_Ubigeo--prod
+except
+select idUbigeo, departamento, provincia,distrito from dbo.tb_Ubigeo--des
+
+--7.2
+select  idUbigeo,departamento,provincia,distrito from desarrollo.tb_Ubigeo
+where idUbigeo+departamento+provincia+distrito not in
+(
+select  idUbigeo+departamento+provincia+distrito from dbo.tb_Ubigeo
+)
