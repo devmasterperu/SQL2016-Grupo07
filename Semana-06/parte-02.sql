@@ -31,3 +31,18 @@ sum(poblacion) OVER(PARTITION BY departamento) as sumdpto,--Corta por departamen
 count(poblacion) OVER(PARTITION BY departamento) as condpto--Corta por departamento y cuenta las poblaciones
 from tb_Ubigeo u
 order by departamento,provincia,distrito
+
+--2. Mostrar para cada ubigeo con población>10000 su resumen de superfice por departamento
+
+select 
+departamento, 
+provincia,
+distrito,
+max(superficie) OVER(PARTITION BY departamento) as maxdpto,--Corta por departamento y obten la máxima superfie
+min(superficie) OVER(PARTITION BY departamento) as mindpto,--Corta por departamento y obten la mínima superfie
+avg(superficie) OVER(PARTITION BY departamento) as avgdpto,--Corta por departamento y obten el promedio superfie
+sum(superficie) OVER(PARTITION BY departamento) as sumdpto,--Corta por departamento y suma las superfie
+count(superficie) OVER(PARTITION BY departamento) as condpto--Corta por departamento y cuenta las superfie
+from tb_Ubigeo u
+where u.poblacion>10000
+order by departamento,provincia,distrito
