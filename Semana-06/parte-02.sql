@@ -75,3 +75,28 @@ where idUbigeo='010202'
 update tb_Ubigeo
 set superficie=746.64
 where idUbigeo='010706'
+
+--3 Mostrar para cada ubigeo su ranking de poblacion por letra de inicio del departamento 
+--(De menor a mayor):
+--Consideraciones
+---Mostrar el ranking con puestos irrepetibles.
+---Mostrar el ranking sin salto de puestos.
+---Mostrar el ranking con salto de puestos.
+---Agrupar los ranking por letra de inicio del departamento en 3 grupos.
+
+--3.1
+select
+idUbigeo,
+departamento, 
+pletra,
+poblacion,
+ROW_NUMBER() OVER(PARTITION BY pletra ORDER BY poblacion asc) as row_number,
+DENSE_RANK() OVER(PARTITION BY pletra ORDER BY poblacion asc) as dense_rank,
+RANK() OVER(PARTITION BY pletra ORDER BY poblacion asc) as rank,
+NTILE(3) OVER(PARTITION BY pletra ORDER BY poblacion asc) as ntile3
+from
+(
+select idUbigeo,departamento,provincia,distrito,poblacion,substring(departamento,1,1) as pletra from
+dbo.tb_Ubigeo
+) u
+order by pletra
