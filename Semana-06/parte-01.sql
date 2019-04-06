@@ -3852,3 +3852,39 @@ order by u.poblacion desc
 --9.b
 select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
 outer apply dbo.fnTopProducto(p.idProducto) tp
+
+--10.a
+
+--x
+select * from tb_Cliente
+
+--y
+select p.nombreProducto from tb_ContactoCliente cc
+inner join tb_Producto p on cc.idProducto=p.idProducto
+where idCliente=2
+order by p.nombreProducto asc
+
+--x+y
+select concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,
+tc.nombreProducto
+from tb_Cliente c
+outer apply
+(
+select top 3 p.nombreProducto from tb_ContactoCliente cc
+inner join tb_Producto p on cc.idProducto=p.idProducto
+where idCliente=c.idCliente
+order by p.nombreProducto asc
+) tc
+
+--10.b
+create function fnTopPdto(@idCliente int) returns table
+return
+select top 3 p.nombreProducto from tb_ContactoCliente cc
+inner join tb_Producto p on cc.idProducto=p.idProducto
+where idCliente=@idCliente
+order by p.nombreProducto asc
+
+select concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,
+tc.nombreProducto
+from tb_Cliente c
+outer apply fnTopPdto(c.idCliente) tc
