@@ -3835,3 +3835,20 @@ select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
 inner join dbo.tb_ContactoCliente cc on p.idProducto=cc.idProducto
 cross apply dbo.fnTopProducto(p.idProducto) tp
 where p.estadoProducto=1
+
+--9.a
+
+select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
+outer apply
+(
+select top 2 concat(c.nombreCliente,' ',c.apellidosCliente) as cliente,c.idUbigeo,u.poblacion
+from tb_ContactoCliente cc
+inner join tb_Cliente c on cc.idCliente=c.idCliente
+left join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where idProducto=p.idProducto--enlace x+y
+order by u.poblacion desc
+) tp
+
+--9.b
+select p.nombreProducto,tp.cliente,tp.idUbigeo,tp.poblacion from tb_Producto p
+outer apply dbo.fnTopProducto(p.idProducto) tp
