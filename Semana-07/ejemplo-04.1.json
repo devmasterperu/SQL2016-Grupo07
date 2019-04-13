@@ -1,0 +1,15 @@
+{
+    "nombreCliente": "CLIN1",
+    "apellidosCliente": "CLIA1",
+    "emailCliente": "CLIN1CLIA1@correo.com"
+},
+{
+    "nombreCliente": "CLIN3",
+    "apellidosCliente": "CLIA3",
+    "emailCliente": "CLIN3CLIA3@correo.com"
+},
+{
+    "nombreCliente": "CLIN5",
+    "apellidosCliente": "CLIA5",
+    "emailCliente": "CLIN5CLIA5@correo.com"
+}

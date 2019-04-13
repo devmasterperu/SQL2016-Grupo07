@@ -1,0 +1,1378 @@
+{
+    "ubigeos": [
+        {
+            "departamento": "Amazonas",
+            "provincia": "Bagua",
+            "distrito": "Aramango",
+            "poblacion": 10940
+        },
+        {
+            "departamento": "Amazonas",
+            "provincia": "Condorcanqui",
+            "distrito": "Rio Santiago",
+            "poblacion": 16986
+        },
+        {
+            "departamento": "Amazonas",
+            "provincia": "Utcubamba",
+            "distrito": "Lonya Grande",
+            "poblacion": 10443
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Carhuaz",
+            "distrito": "Carhuaz",
+            "poblacion": 15712
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Huari",
+            "distrito": "Huari",
+            "poblacion": 10423
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Huari",
+            "distrito": "San Marcos",
+            "poblacion": 15094
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Pomabamba",
+            "distrito": "Pomabamba",
+            "poblacion": 16631
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Santa",
+            "distrito": "Nepeña",
+            "poblacion": 15949
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Santa",
+            "distrito": "Coishco",
+            "poblacion": 16057
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Yungay",
+            "distrito": "Quillo",
+            "poblacion": 14134
+        },
+        {
+            "departamento": "Ancash",
+            "provincia": "Carlos Fermin Fitzca",
+            "distrito": "San Luis",
+            "poblacion": 12689
+        },
+        {
+            "departamento": "Apurimac",
+            "provincia": "Abancay",
+            "distrito": "Curahuasi",
+            "poblacion": 18422
+        },
+        {
+            "departamento": "Apurimac",
+            "provincia": "Andahuaylas",
+            "distrito": "Talavera",
+            "poblacion": 18478
+        },
+        {
+            "departamento": "Apurimac",
+            "provincia": "Cotabambas",
+            "distrito": "Tambobamba",
+            "poblacion": 11793
+        },
+        {
+            "departamento": "Apurimac",
+            "provincia": "Cotabambas",
+            "distrito": "Haquira",
+            "poblacion": 11908
+        },
+        {
+            "departamento": "Apurimac",
+            "provincia": "Chincheros",
+            "distrito": "Anco_Huallo",
+            "poblacion": 12627
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Arequipa",
+            "distrito": "Characato",
+            "poblacion": 10101
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Arequipa",
+            "distrito": "Tiabaya",
+            "poblacion": 14812
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Arequipa",
+            "distrito": "Uchumayo",
+            "poblacion": 12950
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Camana",
+            "distrito": "Camana",
+            "poblacion": 14409
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Camana",
+            "distrito": "Samuel Pastor",
+            "poblacion": 15933
+        },
+        {
+            "departamento": "Arequipa",
+            "provincia": "Castilla",
+            "distrito": "Orcopampa",
+            "poblacion": 10039
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Huamanga",
+            "distrito": "Vinchos",
+            "poblacion": 17136
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Huamanga",
+            "distrito": "Acocro",
+            "poblacion": 11081
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Huamanga",
+            "distrito": "Jesus Nazareno",
+            "poblacion": 18815
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Huanta",
+            "distrito": "Sivia",
+            "poblacion": 13511
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Huanta",
+            "distrito": "Llochegua",
+            "poblacion": 11372
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "La Mar",
+            "distrito": "Anco",
+            "poblacion": 11144
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "La Mar",
+            "distrito": "Ayna",
+            "poblacion": 10559
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "La Mar",
+            "distrito": "Santa Rosa",
+            "poblacion": 11233
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "La Mar",
+            "distrito": "Samugari",
+            "poblacion": 10772
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Lucanas",
+            "distrito": "Puquio",
+            "poblacion": 14166
+        },
+        {
+            "departamento": "Ayacucho",
+            "provincia": "Parinacochas",
+            "distrito": "Coracora",
+            "poblacion": 15679
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cajamarca",
+            "distrito": "Asuncion",
+            "poblacion": 13508
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cajamarca",
+            "distrito": "Jesus",
+            "poblacion": 14742
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cajamarca",
+            "distrito": "Namora",
+            "poblacion": 10740
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cajabamba",
+            "distrito": "Condebamba",
+            "poblacion": 14006
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Celendin",
+            "distrito": "Huasmin",
+            "poblacion": 13621
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cutervo",
+            "distrito": "Callayuc",
+            "poblacion": 10280
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cutervo",
+            "distrito": "Querocotillo",
+            "poblacion": 17001
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Cutervo",
+            "distrito": "Socota",
+            "poblacion": 10720
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Chota",
+            "distrito": "Lajas",
+            "poblacion": 12505
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Chota",
+            "distrito": "Chalamarca",
+            "poblacion": 11274
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Hualgayoc",
+            "distrito": "Hualgayoc",
+            "poblacion": 16979
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Jaen",
+            "distrito": "Bellavista",
+            "poblacion": 15310
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Jaen",
+            "distrito": "Colasay",
+            "poblacion": 10447
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Jaen",
+            "distrito": "Chontali",
+            "poblacion": 10232
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Jaen",
+            "distrito": "Pomahuaca",
+            "poblacion": 10190
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Jaen",
+            "distrito": "Santa Rosa",
+            "poblacion": 11363
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Santa Cruz",
+            "distrito": "Santa Cruz",
+            "poblacion": 12431
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "Santa Cruz",
+            "distrito": "Catache",
+            "poblacion": 10048
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "San Miguel",
+            "distrito": "San Miguel",
+            "poblacion": 15894
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "San Ignacio",
+            "distrito": "Chirinos",
+            "poblacion": 14355
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "San Ignacio",
+            "distrito": "Namballe",
+            "poblacion": 11717
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "San Marcos",
+            "distrito": "Jose Sabogal",
+            "poblacion": 15303
+        },
+        {
+            "departamento": "Cajamarca",
+            "provincia": "San Pablo",
+            "distrito": "San Pablo",
+            "poblacion": 13586
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Anta",
+            "distrito": "Anta",
+            "poblacion": 16833
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Calca",
+            "distrito": "Pisac",
+            "poblacion": 10285
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Calca",
+            "distrito": "Yanatile",
+            "poblacion": 13588
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Canas",
+            "distrito": "Yanaoca",
+            "poblacion": 10178
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Canchis",
+            "distrito": "Marangani",
+            "poblacion": 11287
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Chumbivilcas",
+            "distrito": "Livitaca",
+            "poblacion": 13526
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Espinar",
+            "distrito": "Coporaque",
+            "poblacion": 18004
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "La Convencion",
+            "distrito": "Vilcabamba",
+            "poblacion": 13869
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "La Convencion",
+            "distrito": "Quellouno",
+            "poblacion": 18320
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "La Convencion",
+            "distrito": "Kimbiri",
+            "poblacion": 14893
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Paucartambo",
+            "distrito": "Paucartambo",
+            "poblacion": 13491
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Paucartambo",
+            "distrito": "Colquepata",
+            "poblacion": 10767
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Paucartambo",
+            "distrito": "Challabamba",
+            "poblacion": 11389
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Quispicanchi",
+            "distrito": "Ccatca",
+            "poblacion": 18128
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Quispicanchi",
+            "distrito": "Ocongate",
+            "poblacion": 15889
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Quispicanchi",
+            "distrito": "Quiquijana",
+            "poblacion": 11100
+        },
+        {
+            "departamento": "Cusco",
+            "provincia": "Urubamba",
+            "distrito": "Ollantaytambo",
+            "poblacion": 11347
+        },
+        {
+            "departamento": "Huancavelica",
+            "provincia": "Huancavelica",
+            "distrito": "Ascension",
+            "poblacion": 12711
+        },
+        {
+            "departamento": "Huancavelica",
+            "provincia": "Acobamba",
+            "distrito": "Acobamba",
+            "poblacion": 10258
+        },
+        {
+            "departamento": "Huancavelica",
+            "provincia": "Tayacaja",
+            "distrito": "Colcabamba",
+            "poblacion": 12376
+        },
+        {
+            "departamento": "Huancavelica",
+            "provincia": "Tayacaja",
+            "distrito": "Daniel Hernandez",
+            "poblacion": 10381
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Huanuco",
+            "distrito": "Chinchao",
+            "poblacion": 14099
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Huanuco",
+            "distrito": "Margos",
+            "poblacion": 10021
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Ambo",
+            "distrito": "Ambo",
+            "poblacion": 17328
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Ambo",
+            "distrito": "San Rafael",
+            "poblacion": 12278
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Dos de Mayo",
+            "distrito": "Pachas",
+            "poblacion": 13450
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Huamalies",
+            "distrito": "Llata",
+            "poblacion": 15299
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Marañon",
+            "distrito": "Huacrachuco",
+            "poblacion": 15942
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Marañon",
+            "distrito": "Cholon",
+            "poblacion": 10428
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Leoncio Prado",
+            "distrito": "Luyando",
+            "poblacion": 10078
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Pachitea",
+            "distrito": "Chaglla",
+            "poblacion": 14914
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Pachitea",
+            "distrito": "Molino",
+            "poblacion": 15486
+        },
+        {
+            "departamento": "Huanuco",
+            "provincia": "Lauricocha",
+            "distrito": "San Miguel de Cauri",
+            "poblacion": 10381
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Ica",
+            "distrito": "Los Aquijes",
+            "poblacion": 19987
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Ica",
+            "distrito": "San Juan Bautista",
+            "poblacion": 15214
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Chincha",
+            "distrito": "Chincha Baja",
+            "poblacion": 12536
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Chincha",
+            "distrito": "El Carmen",
+            "poblacion": 13734
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Nazca",
+            "distrito": "Marcona",
+            "poblacion": 12510
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Nazca",
+            "distrito": "Vista Alegre",
+            "poblacion": 15935
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Pisco",
+            "distrito": "Independencia",
+            "poblacion": 14928
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Pisco",
+            "distrito": "San Andres",
+            "poblacion": 13733
+        },
+        {
+            "departamento": "Ica",
+            "provincia": "Pisco",
+            "distrito": "Tupac Amaru Inca",
+            "poblacion": 18366
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Huancayo",
+            "distrito": "Pilcomayo",
+            "poblacion": 17062
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Huancayo",
+            "distrito": "San Agustin",
+            "poblacion": 11955
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Huancayo",
+            "distrito": "San Jeronimo de Tunan",
+            "poblacion": 10420
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Huancayo",
+            "distrito": "Sapallanga",
+            "poblacion": 12879
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Concepcion",
+            "distrito": "Concepcion",
+            "poblacion": 15010
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Jauja",
+            "distrito": "Jauja",
+            "poblacion": 14536
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Tarma",
+            "distrito": "Acobamba",
+            "poblacion": 13586
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Tarma",
+            "distrito": "Huasahuasi",
+            "poblacion": 15398
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Yauli",
+            "distrito": "La Oroya",
+            "poblacion": 12577
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Yauli",
+            "distrito": "Santa Rosa de Sacco",
+            "poblacion": 10413
+        },
+        {
+            "departamento": "Junin",
+            "provincia": "Satipo",
+            "distrito": "Pampa Hermosa",
+            "poblacion": 10899
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Trujillo",
+            "distrito": "Salaverry",
+            "poblacion": 19095
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Sanchez Carrion",
+            "distrito": "Chugay",
+            "poblacion": 19316
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Sanchez Carrion",
+            "distrito": "Marcabal",
+            "poblacion": 17296
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Sanchez Carrion",
+            "distrito": "Sanagoran",
+            "poblacion": 15424
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Sanchez Carrion",
+            "distrito": "Sarin",
+            "poblacion": 10241
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Sanchez Carrion",
+            "distrito": "Sartimbamba",
+            "poblacion": 14090
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Pacasmayo",
+            "distrito": "San Pedro de Lloc",
+            "poblacion": 17017
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Pacasmayo",
+            "distrito": "San Jose",
+            "poblacion": 12790
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Pataz",
+            "distrito": "Tayabamba",
+            "poblacion": 15100
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Pataz",
+            "distrito": "Chillia",
+            "poblacion": 14060
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Santiago de Chuco",
+            "distrito": "Quiruvilca",
+            "poblacion": 14549
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Ascope",
+            "distrito": "Chicama",
+            "poblacion": 15796
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Ascope",
+            "distrito": "Santiago de Cao",
+            "poblacion": 19896
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Chepen",
+            "distrito": "Pueblo Nuevo",
+            "poblacion": 15458
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Julcan",
+            "distrito": "Julcan",
+            "poblacion": 11630
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Gran Chimu",
+            "distrito": "Cascas",
+            "poblacion": 14386
+        },
+        {
+            "departamento": "La Libertad",
+            "provincia": "Viru",
+            "distrito": "Guadalupito",
+            "poblacion": 10166
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Chongoyape",
+            "poblacion": 18101
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Eten",
+            "poblacion": 10599
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Lagunas",
+            "poblacion": 10436
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Reque",
+            "poblacion": 15386
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Santa Rosa",
+            "poblacion": 13030
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Saña",
+            "poblacion": 12397
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Chiclayo",
+            "distrito": "Cayalti",
+            "poblacion": 15915
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Ferreñafe",
+            "distrito": "Incahuasi",
+            "poblacion": 15733
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Ferreñafe",
+            "distrito": "Cañaris",
+            "poblacion": 14787
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Ferreñafe",
+            "distrito": "Pueblo Nuevo",
+            "poblacion": 13619
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Lambayeque",
+            "distrito": "Jayanca",
+            "poblacion": 18039
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Lambayeque",
+            "distrito": "Mochumi",
+            "poblacion": 19467
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Lambayeque",
+            "distrito": "Salas",
+            "poblacion": 13056
+        },
+        {
+            "departamento": "Lambayeque",
+            "provincia": "Lambayeque",
+            "distrito": "San Jose",
+            "poblacion": 16851
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Pucusana",
+            "poblacion": 18284
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Cañete",
+            "distrito": "Chilca",
+            "poblacion": 16350
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Cañete",
+            "distrito": "Quilmana",
+            "poblacion": 15823
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Cañete",
+            "distrito": "San Luis",
+            "poblacion": 13420
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Huarochiri",
+            "distrito": "Santa Eulalia",
+            "poblacion": 12476
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Barranca",
+            "distrito": "Supe Puerto",
+            "poblacion": 11898
+        },
+        {
+            "departamento": "Lima",
+            "provincia": "Oyon",
+            "distrito": "Oyon",
+            "poblacion": 15066
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Maynas",
+            "distrito": "Mazan",
+            "poblacion": 14057
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Maynas",
+            "distrito": "Napo",
+            "poblacion": 16695
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Maynas",
+            "distrito": "Indiana",
+            "poblacion": 11273
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Alto Amazonas",
+            "distrito": "Balsapuerto",
+            "poblacion": 18042
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Alto Amazonas",
+            "distrito": "Lagunas",
+            "poblacion": 14584
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Loreto",
+            "distrito": "Urarinas",
+            "poblacion": 15270
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Loreto",
+            "distrito": "Trompeteros",
+            "poblacion": 11196
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Ucayali",
+            "distrito": "Pampa Hermosa",
+            "poblacion": 11081
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Ucayali",
+            "distrito": "Sarayacu",
+            "poblacion": 16913
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Mariscal Ramon Castilla",
+            "distrito": "Pebas",
+            "poblacion": 17653
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Mariscal Ramon Castilla",
+            "distrito": "Yavari",
+            "poblacion": 16315
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Mariscal Ramon Castilla",
+            "distrito": "San Pablo",
+            "poblacion": 16675
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Datem del Marañon",
+            "distrito": "Barranca",
+            "poblacion": 14043
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Datem del Marañon",
+            "distrito": "Andoas",
+            "poblacion": 12869
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Datem del Marañon",
+            "distrito": "Manseriche",
+            "poblacion": 10707
+        },
+        {
+            "departamento": "Loreto",
+            "provincia": "Datem del Marañon",
+            "distrito": "Morona",
+            "poblacion": 13609
+        },
+        {
+            "departamento": "Madre de Dios",
+            "provincia": "Tambopata",
+            "distrito": "Inambari",
+            "poblacion": 10818
+        },
+        {
+            "departamento": "Madre de Dios",
+            "provincia": "Manu",
+            "distrito": "Madre de Dios",
+            "poblacion": 13835
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Pasco",
+            "distrito": "Huayllay",
+            "poblacion": 11564
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Pasco",
+            "distrito": "Simon Bolivar",
+            "poblacion": 11404
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Pasco",
+            "distrito": "Ticlacayan",
+            "poblacion": 14863
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Daniel Alcides Carrion",
+            "distrito": "Yanahuanca",
+            "poblacion": 12963
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Oxapampa",
+            "distrito": "Oxapampa",
+            "poblacion": 14438
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Oxapampa",
+            "distrito": "Puerto Bermudez",
+            "poblacion": 18016
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Oxapampa",
+            "distrito": "Palcazu",
+            "poblacion": 11282
+        },
+        {
+            "departamento": "Pasco",
+            "provincia": "Oxapampa",
+            "distrito": "Constitución",
+            "poblacion": 12105
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Piura",
+            "distrito": "Cura Mori",
+            "poblacion": 19168
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Ayabaca",
+            "distrito": "Sapillica",
+            "poblacion": 12442
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Ayabaca",
+            "distrito": "Suyo",
+            "poblacion": 12471
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Ayabaca",
+            "distrito": "Paimas",
+            "poblacion": 10504
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Huancabamba",
+            "distrito": "Sondorillo",
+            "poblacion": 10910
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Huancabamba",
+            "distrito": "El Carmen de La Frontera",
+            "poblacion": 14195
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Morropon",
+            "distrito": "Morropon",
+            "poblacion": 14240
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Morropon",
+            "distrito": "La Matanza",
+            "poblacion": 12912
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Paita",
+            "distrito": "La Huaca",
+            "poblacion": 11921
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Paita",
+            "distrito": "Colan",
+            "poblacion": 12625
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Sullana",
+            "distrito": "Lancones",
+            "poblacion": 13525
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Talara",
+            "distrito": "La Brea",
+            "poblacion": 11926
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Talara",
+            "distrito": "Mancora",
+            "poblacion": 13045
+        },
+        {
+            "departamento": "Piura",
+            "provincia": "Sechura",
+            "distrito": "Vice",
+            "poblacion": 14475
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Puno",
+            "distrito": "Capachica",
+            "poblacion": 11436
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Puno",
+            "distrito": "Huata",
+            "poblacion": 10988
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Azangaro",
+            "distrito": "Asillo",
+            "poblacion": 17767
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Azangaro",
+            "distrito": "Chupa",
+            "poblacion": 13200
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Azangaro",
+            "distrito": "Saman",
+            "poblacion": 14541
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Azangaro",
+            "distrito": "San Anton",
+            "poblacion": 10186
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Carabaya",
+            "distrito": "Macusani",
+            "poblacion": 13291
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Carabaya",
+            "distrito": "Ayapata",
+            "poblacion": 12540
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Carabaya",
+            "distrito": "Coasa",
+            "poblacion": 16619
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Chucuito",
+            "distrito": "Pisacoma",
+            "poblacion": 13871
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Chucuito",
+            "distrito": "Pomata",
+            "poblacion": 16206
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Chucuito",
+            "distrito": "Zepita",
+            "poblacion": 19161
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Huancane",
+            "distrito": "Huancane",
+            "poblacion": 18727
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Huancane",
+            "distrito": "Taraco",
+            "poblacion": 14483
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Lampa",
+            "distrito": "Lampa",
+            "poblacion": 10351
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Melgar",
+            "distrito": "Nuñoa",
+            "poblacion": 11106
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Melgar",
+            "distrito": "Orurillo",
+            "poblacion": 11009
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Sandia",
+            "distrito": "Sandia",
+            "poblacion": 12478
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Sandia",
+            "distrito": "San Juan del Oro",
+            "poblacion": 14201
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Sandia",
+            "distrito": "San Pedro de Putina Punco",
+            "poblacion": 14560
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "El Collao",
+            "distrito": "Pilcuyo",
+            "poblacion": 13172
+        },
+        {
+            "departamento": "Puno",
+            "provincia": "Moho",
+            "distrito": "Moho",
+            "poblacion": 16058
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Huallaga",
+            "distrito": "Saposoa",
+            "poblacion": 11436
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Lamas",
+            "distrito": "Lamas",
+            "poblacion": 12528
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Lamas",
+            "distrito": "Pinto Recodo",
+            "poblacion": 11115
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Lamas",
+            "distrito": "Tabalosos",
+            "poblacion": 13492
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Lamas",
+            "distrito": "Alonso de Alvarado",
+            "poblacion": 19886
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Rioja",
+            "distrito": "Elias Soplin Vargas",
+            "poblacion": 13897
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Rioja",
+            "distrito": "Awajun",
+            "poblacion": 12342
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "San Martin",
+            "distrito": "Sauce",
+            "poblacion": 16808
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Bellavista",
+            "distrito": "Bellavista",
+            "poblacion": 13643
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Tocache",
+            "distrito": "Nuevo Progreso",
+            "poblacion": 12370
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Tocache",
+            "distrito": "Polvora",
+            "poblacion": 14439
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "Picota",
+            "distrito": "Shamboyacu",
+            "poblacion": 12188
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "El Dorado",
+            "distrito": "San Jose de Sisa",
+            "poblacion": 11954
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "El Dorado",
+            "distrito": "San Martin",
+            "poblacion": 13834
+        },
+        {
+            "departamento": "San Martin",
+            "provincia": "El Dorado",
+            "distrito": "Santa Rosa",
+            "poblacion": 10704
+        },
+        {
+            "departamento": "Tumbes",
+            "provincia": "Contralmirante Villar",
+            "distrito": "Zorritos",
+            "poblacion": 12785
+        },
+        {
+            "departamento": "Ucayali",
+            "provincia": "Coronel Portillo",
+            "distrito": "Masisea",
+            "poblacion": 13150
+        },
+        {
+            "departamento": "Ucayali",
+            "provincia": "Coronel Portillo",
+            "distrito": "Campoverde",
+            "poblacion": 16324
+        },
+        {
+            "departamento": "Ucayali",
+            "provincia": "Coronel Portillo",
+            "distrito": "Iparia",
+            "poblacion": 12193
+        },
+        {
+            "departamento": "Ucayali",
+            "provincia": "Padre Abad",
+            "distrito": "Irazola",
+            "poblacion": 10830
+        }
+    ]
+}

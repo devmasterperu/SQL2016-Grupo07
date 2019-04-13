@@ -1,0 +1,416 @@
+[
+    {
+        "nombreCliente": "CLIN1",
+        "apellidosCliente": "CLIA1",
+        "emailCliente": "CLIN1CLIA1@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ancon"
+    },
+    {
+        "nombreCliente": "CLIN3",
+        "apellidosCliente": "CLIA3",
+        "emailCliente": "CLIN3CLIA3@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ancon"
+    },
+    {
+        "nombreCliente": "CLIN5",
+        "apellidosCliente": "CLIA5",
+        "emailCliente": "CLIN5CLIA5@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ancon"
+    },
+    {
+        "nombreCliente": "CLIN7",
+        "apellidosCliente": "CLIA7",
+        "emailCliente": "CLIN7CLIA7@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ancon"
+    },
+    {
+        "nombreCliente": "CLIN9",
+        "apellidosCliente": "CLIA9",
+        "emailCliente": "CLIN9CLIA9@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ancon"
+    },
+    {
+        "nombreCliente": "CLIN11",
+        "apellidosCliente": "CLIA11",
+        "emailCliente": "CLIN11CLIA11@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ate"
+    },
+    {
+        "nombreCliente": "CLIN13",
+        "apellidosCliente": "CLIA13",
+        "emailCliente": "CLIN13CLIA13@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ate"
+    },
+    {
+        "nombreCliente": "CLIN15",
+        "apellidosCliente": "CLIA15",
+        "emailCliente": "CLIN15CLIA15@correo.com",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Ate"
+    },
+    {
+        "nombreCliente": "NOM51",
+        "apellidosCliente": "APE51",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM52",
+        "apellidosCliente": "APE52",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM53",
+        "apellidosCliente": "APE53",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM54",
+        "apellidosCliente": "APE54",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM55",
+        "apellidosCliente": "APE55",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM56",
+        "apellidosCliente": "APE56",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM57",
+        "apellidosCliente": "APE57",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM58",
+        "apellidosCliente": "APE58",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM59",
+        "apellidosCliente": "APE59",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM60",
+        "apellidosCliente": "APE60",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chaclacayo"
+    },
+    {
+        "nombreCliente": "NOM61",
+        "apellidosCliente": "APE61",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM62",
+        "apellidosCliente": "APE62",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM63",
+        "apellidosCliente": "APE63",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM64",
+        "apellidosCliente": "APE64",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM65",
+        "apellidosCliente": "APE65",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM66",
+        "apellidosCliente": "APE66",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM67",
+        "apellidosCliente": "APE67",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM68",
+        "apellidosCliente": "APE68",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM69",
+        "apellidosCliente": "APE69",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM70",
+        "apellidosCliente": "APE70",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Chorrillos"
+    },
+    {
+        "nombreCliente": "NOM71",
+        "apellidosCliente": "APE71",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM72",
+        "apellidosCliente": "APE72",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM73",
+        "apellidosCliente": "APE73",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM74",
+        "apellidosCliente": "APE74",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM75",
+        "apellidosCliente": "APE75",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM76",
+        "apellidosCliente": "APE76",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM77",
+        "apellidosCliente": "APE77",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM78",
+        "apellidosCliente": "APE78",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM79",
+        "apellidosCliente": "APE79",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM80",
+        "apellidosCliente": "APE80",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Victoria"
+    },
+    {
+        "nombreCliente": "NOM81",
+        "apellidosCliente": "APE81",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM82",
+        "apellidosCliente": "APE82",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM83",
+        "apellidosCliente": "APE83",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM84",
+        "apellidosCliente": "APE84",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM85",
+        "apellidosCliente": "APE85",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM86",
+        "apellidosCliente": "APE86",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM87",
+        "apellidosCliente": "APE87",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM88",
+        "apellidosCliente": "APE88",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM89",
+        "apellidosCliente": "APE89",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "La Molina"
+    },
+    {
+        "nombreCliente": "NOM90",
+        "apellidosCliente": "APE90",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lince"
+    },
+    {
+        "nombreCliente": "NOM91",
+        "apellidosCliente": "APE91",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lince"
+    },
+    {
+        "nombreCliente": "NOM92",
+        "apellidosCliente": "APE92",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM93",
+        "apellidosCliente": "APE93",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM94",
+        "apellidosCliente": "APE94",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM95",
+        "apellidosCliente": "APE95",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM96",
+        "apellidosCliente": "APE96",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM97",
+        "apellidosCliente": "APE97",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM98",
+        "apellidosCliente": "APE98",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM99",
+        "apellidosCliente": "APE99",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    },
+    {
+        "nombreCliente": "NOM100",
+        "apellidosCliente": "APE100",
+        "departamento": "Lima",
+        "provincia": "Lima",
+        "distrito": "Lurigancho"
+    }
+]

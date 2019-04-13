@@ -1,0 +1,294 @@
+{
+    "clientes": [
+        {
+            "nombreCliente": "CLIN1",
+            "apellidosCliente": "CLIA1",
+            "emailCliente": "CLIN1CLIA1@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN3",
+            "apellidosCliente": "CLIA3",
+            "emailCliente": "CLIN3CLIA3@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN5",
+            "apellidosCliente": "CLIA5",
+            "emailCliente": "CLIN5CLIA5@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN7",
+            "apellidosCliente": "CLIA7",
+            "emailCliente": "CLIN7CLIA7@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN9",
+            "apellidosCliente": "CLIA9",
+            "emailCliente": "CLIN9CLIA9@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN11",
+            "apellidosCliente": "CLIA11",
+            "emailCliente": "CLIN11CLIA11@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN13",
+            "apellidosCliente": "CLIA13",
+            "emailCliente": "CLIN13CLIA13@correo.com"
+        },
+        {
+            "nombreCliente": "CLIN15",
+            "apellidosCliente": "CLIA15",
+            "emailCliente": "CLIN15CLIA15@correo.com"
+        },
+        {
+            "nombreCliente": "NOM51",
+            "apellidosCliente": "APE51",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM52",
+            "apellidosCliente": "APE52",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM53",
+            "apellidosCliente": "APE53",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM54",
+            "apellidosCliente": "APE54",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM55",
+            "apellidosCliente": "APE55",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM56",
+            "apellidosCliente": "APE56",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM57",
+            "apellidosCliente": "APE57",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM58",
+            "apellidosCliente": "APE58",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM59",
+            "apellidosCliente": "APE59",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM60",
+            "apellidosCliente": "APE60",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM61",
+            "apellidosCliente": "APE61",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM62",
+            "apellidosCliente": "APE62",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM63",
+            "apellidosCliente": "APE63",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM64",
+            "apellidosCliente": "APE64",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM65",
+            "apellidosCliente": "APE65",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM66",
+            "apellidosCliente": "APE66",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM67",
+            "apellidosCliente": "APE67",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM68",
+            "apellidosCliente": "APE68",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM69",
+            "apellidosCliente": "APE69",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM70",
+            "apellidosCliente": "APE70",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM71",
+            "apellidosCliente": "APE71",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM72",
+            "apellidosCliente": "APE72",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM73",
+            "apellidosCliente": "APE73",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM74",
+            "apellidosCliente": "APE74",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM75",
+            "apellidosCliente": "APE75",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM76",
+            "apellidosCliente": "APE76",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM77",
+            "apellidosCliente": "APE77",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM78",
+            "apellidosCliente": "APE78",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM79",
+            "apellidosCliente": "APE79",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM80",
+            "apellidosCliente": "APE80",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM81",
+            "apellidosCliente": "APE81",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM82",
+            "apellidosCliente": "APE82",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM83",
+            "apellidosCliente": "APE83",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM84",
+            "apellidosCliente": "APE84",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM85",
+            "apellidosCliente": "APE85",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM86",
+            "apellidosCliente": "APE86",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM87",
+            "apellidosCliente": "APE87",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM88",
+            "apellidosCliente": "APE88",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM89",
+            "apellidosCliente": "APE89",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM90",
+            "apellidosCliente": "APE90",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM91",
+            "apellidosCliente": "APE91",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM92",
+            "apellidosCliente": "APE92",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM93",
+            "apellidosCliente": "APE93",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM94",
+            "apellidosCliente": "APE94",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM95",
+            "apellidosCliente": "APE95",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM96",
+            "apellidosCliente": "APE96",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM97",
+            "apellidosCliente": "APE97",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM98",
+            "apellidosCliente": "APE98",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM99",
+            "apellidosCliente": "APE99",
+            "emailCliente": null
+        },
+        {
+            "nombreCliente": "NOM100",
+            "apellidosCliente": "APE100",
+            "emailCliente": null
+        }
+    ]
+}

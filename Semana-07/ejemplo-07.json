@@ -1,0 +1,880 @@
+[
+    {
+        "cliente": {
+            "nombres": "CLIN1",
+            "apellidos": "CLIA1",
+            "email": "CLIN1CLIA1@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ancon"
+        },
+        "tipo": {
+            "id": 1,
+            "nombre": "DNI"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN3",
+            "apellidos": "CLIA3",
+            "email": "CLIN3CLIA3@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ancon"
+        },
+        "tipo": {
+            "id": 1,
+            "nombre": "DNI"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN5",
+            "apellidos": "CLIA5",
+            "email": "CLIN5CLIA5@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ancon"
+        },
+        "tipo": {
+            "id": 2,
+            "nombre": "LE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN7",
+            "apellidos": "CLIA7",
+            "email": "CLIN7CLIA7@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ancon"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN9",
+            "apellidos": "CLIA9",
+            "email": "CLIN9CLIA9@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ancon"
+        },
+        "tipo": {
+            "id": 1,
+            "nombre": "DNI"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN11",
+            "apellidos": "CLIA11",
+            "email": "CLIN11CLIA11@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ate"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN13",
+            "apellidos": "CLIA13",
+            "email": "CLIN13CLIA13@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ate"
+        },
+        "tipo": {
+            "id": 2,
+            "nombre": "LE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "CLIN15",
+            "apellidos": "CLIA15",
+            "email": "CLIN15CLIA15@correo.com"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Ate"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM51",
+            "apellidos": "APE51"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM52",
+            "apellidos": "APE52"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM53",
+            "apellidos": "APE53"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM54",
+            "apellidos": "APE54"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM55",
+            "apellidos": "APE55"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM56",
+            "apellidos": "APE56"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM57",
+            "apellidos": "APE57"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM58",
+            "apellidos": "APE58"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM59",
+            "apellidos": "APE59"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM60",
+            "apellidos": "APE60"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chaclacayo"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM61",
+            "apellidos": "APE61"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM62",
+            "apellidos": "APE62"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM63",
+            "apellidos": "APE63"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM64",
+            "apellidos": "APE64"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM65",
+            "apellidos": "APE65"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM66",
+            "apellidos": "APE66"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM67",
+            "apellidos": "APE67"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM68",
+            "apellidos": "APE68"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM69",
+            "apellidos": "APE69"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM70",
+            "apellidos": "APE70"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Chorrillos"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM71",
+            "apellidos": "APE71"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM72",
+            "apellidos": "APE72"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM73",
+            "apellidos": "APE73"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM74",
+            "apellidos": "APE74"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM75",
+            "apellidos": "APE75"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 3,
+            "nombre": "CARNET EXTRANJERÍA"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM76",
+            "apellidos": "APE76"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM77",
+            "apellidos": "APE77"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM78",
+            "apellidos": "APE78"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM79",
+            "apellidos": "APE79"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM80",
+            "apellidos": "APE80"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Victoria"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM81",
+            "apellidos": "APE81"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM82",
+            "apellidos": "APE82"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM83",
+            "apellidos": "APE83"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM84",
+            "apellidos": "APE84"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM85",
+            "apellidos": "APE85"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM86",
+            "apellidos": "APE86"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM87",
+            "apellidos": "APE87"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM88",
+            "apellidos": "APE88"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM89",
+            "apellidos": "APE89"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "La Molina"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM90",
+            "apellidos": "APE90"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lince"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM91",
+            "apellidos": "APE91"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lince"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM92",
+            "apellidos": "APE92"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM93",
+            "apellidos": "APE93"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM94",
+            "apellidos": "APE94"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM95",
+            "apellidos": "APE95"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM96",
+            "apellidos": "APE96"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM97",
+            "apellidos": "APE97"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM98",
+            "apellidos": "APE98"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM99",
+            "apellidos": "APE99"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    },
+    {
+        "cliente": {
+            "nombres": "NOM100",
+            "apellidos": "APE100"
+        },
+        "ubigeo": {
+            "departamento": "Lima",
+            "provincia": "Lima",
+            "distrito": "Lurigancho"
+        },
+        "tipo": {
+            "id": 4,
+            "nombre": "PASAPORTE"
+        }
+    }
+]
