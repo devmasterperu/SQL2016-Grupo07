@@ -54,3 +54,32 @@ where u.departamento='lima'
 select * from CTE_clientes
 for json auto,include_null_values,without_array_wrapper
 
+--4
+
+--4.1
+if object_id('tempdb..##tt_colaboradores') is not null
+begin
+	drop table tempdb..##tt_colaboradores
+end
+
+select idColaborador,nombreColaborador,apellidoColaborador,c.idUbigeo 
+into ##tt_colaboradores
+from tb_Colaborador c
+inner join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where u.departamento='lima'
+--for json auto (No permitido)
+
+select * from ##tt_colaboradores
+for json auto, root('Colaboradores')
+
+--3.2
+
+WITH CTE_colaboradores AS
+(
+select idColaborador,nombreColaborador,apellidoColaborador,c.idUbigeo 
+from tb_Colaborador c
+inner join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+where u.departamento='lima'
+)
+select * from CTE_colaboradores
+for json auto,include_null_values,without_array_wrapper
