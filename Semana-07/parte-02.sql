@@ -72,7 +72,7 @@ where u.departamento='lima'
 select * from ##tt_colaboradores
 for json auto, root('Colaboradores')
 
---3.2
+--4.2
 
 WITH CTE_colaboradores AS
 (
@@ -83,3 +83,19 @@ where u.departamento='lima'
 )
 select * from CTE_colaboradores
 for json auto,include_null_values,without_array_wrapper
+
+--5
+
+select 
+nombreColaborador as [Persona.Nombres],
+apellidoColaborador as [Persona.Apellidos],
+c.numeroDocumentoColaborador as [Documento.Numero],
+t.nombreTipoDocumento as [Documento.Tipo],
+u.departamento as [Ubigeo.departamento],
+u.provincia as [Ubigeo.provincia],
+u.distrito as [Ubigeo.distrito]
+from tb_Colaborador c
+inner join tb_Ubigeo u on c.idUbigeo=u.idUbigeo
+inner join tb_TipoDocumento t on c.idTipoDocumento=t.idTipoDocumento
+where u.departamento='lima'
+for json path
