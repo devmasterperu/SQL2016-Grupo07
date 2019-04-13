@@ -76,7 +76,7 @@ from tb_Meta m
 inner join tb_Rol r on m.idRol=r.idRol
 inner join tb_SemanaPlanificada s on m.idSemanaPlan=s.idSemanaPlan
 inner join tb_Producto p on m.idProducto=p.idProducto
-for XML path('meta')
+for XML path('meta'),root('metas')
 
 
 
